@@ -1,0 +1,18 @@
+.toc ul {
+	padding-inline-start: 20px;
+	list-style-type: disc;
+}
+
+.toc li ul {
+	list-style-type: circle;
+}
+
+.toc li {
+	margin-top: 5px;
+}
+
+.toc .inner>ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}

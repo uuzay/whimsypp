@@ -1,0 +1,50 @@
+baseURL: "https://<USERNAME>.github.io/"
+languageCode: "en-us"
+title: "Whimsy++"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 5
+
+enableEmoji: true
+enableInlineShortcodes: true
+
+markup:
+  highlight:
+    noClasses: false
+    style: "dracula"
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+
+params:
+  env: production
+  title: "Whimsy++"
+  description: "Diving deep into rare, advanced, and obscure C++ topics."
+  author: "Me"
+  defaultTheme: "dark" # Dark mode default
+
+  # PaperMod UI feature toggles
+  disableSpecial1stPost: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  # Set default behavior for TOC
+  ShowToc: false
+
+  # Assets configuration
+  assets:
+    disableScrollBarStyle: false
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Whimsy++"
+    icon: ""
+    iconHeight: 35

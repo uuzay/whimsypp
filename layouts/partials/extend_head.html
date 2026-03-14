@@ -1,0 +1,26 @@
+{{- if or .Params.mermaid .Site.Params.mermaid -}}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: 'dark'
+    });
+
+    document.addEventListener("DOMContentLoaded", async () => {
+        // Extract raw text from any custom shortcode wrappers
+        document.querySelectorAll('.mermaid-wrapper').forEach(wrapper => {
+            const srcNode = wrapper.querySelector('.mermaid-src');
+            if (srcNode) {
+                const container = document.createElement('div');
+                container.className = 'mermaid';
+                // textContent applies exact characters without parsing them as HTML tags
+                container.textContent = srcNode.textContent;
+                wrapper.replaceWith(container);
+            }
+        });
+
+        // Execute Mermaid on all `.mermaid` elements safely
+        await mermaid.run({ querySelector: '.mermaid' }).catch(console.error);
+    });
+</script>
+{{- end -}}
