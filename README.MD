@@ -33,3 +33,8 @@ hugo server -D
 ```
 
 Hosts on http://localhost:1313.
+
+Categories for posts are (in increasing level):  
+- modest
+- remarkable
+- diabolical

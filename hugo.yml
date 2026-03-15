@@ -19,6 +19,14 @@ menu:
       name: Search
       url: /search/
       weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
 
 pagination:
   pagerSize: 5
@@ -37,14 +45,16 @@ markup:
 params:
   env: production
   title: "Whimsy++"
-  description: "Whimsy and obscure C++ topics."
+  description: "Bite-sized, whimsy and obscure C++."
   author: "Uzay Uysal"
   defaultTheme: "dark"
 
   homeInfoParams:
     Title: "Whimsy++"
-    Content: "Bite-sized, whimsy and obscure C++."
+    Content: |
+      Bite-sized, whimsy and obscure C++.
 
+      Each post is categorized in 3 levels for their whimsiness and obscurity for easy navigation.
   socialIcons:
     - name: github
       url: "https://github.com/uuzay"
