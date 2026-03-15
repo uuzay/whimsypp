@@ -1,0 +1,60 @@
+/* ─── Clavis card ─── */
+.clavis-card {
+    position: relative;
+    margin: 1.75rem 0;
+    padding: 0.9rem 1.1rem 0.9rem 1.3rem;
+    background-color: color-mix(in srgb, var(--theme) 97%, #b07d00 3%);
+    border-left: 3px solid #c9900a;
+    border-radius: 0 4px 4px 0;
+    box-shadow:
+        inset 0 0 0 1px color-mix(in srgb, #c9900a 18%, transparent),
+        0 2px 8px color-mix(in srgb, #c9900a 8%, transparent);
+}
+
+.clavis-header {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 0.5rem;
+}
+
+.clavis-icon {
+    width: 15px;
+    height: 15px;
+    color: #c9900a;
+    flex-shrink: 0;
+    opacity: 0.95;
+}
+
+.clavis-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #c9900a;
+}
+
+.clavis-body {
+    font-size: 0.93rem;
+    line-height: 1.65;
+    color: var(--primary);
+}
+
+/* strip extra margin from the last paragraph inside */
+.clavis-body > p:last-child {
+    margin-bottom: 0;
+}
+
+/* ─── Dark mode: slightly warmer surface ─── */
+.dark .clavis-card {
+    background-color: color-mix(in srgb, var(--theme) 94%, #b07d00 6%);
+    border-left-color: #d4a017;
+    box-shadow:
+        inset 0 0 0 1px color-mix(in srgb, #d4a017 20%, transparent),
+        0 2px 10px color-mix(in srgb, #d4a017 10%, transparent);
+}
+
+.dark .clavis-icon,
+.dark .clavis-label {
+    color: #d4a017;
+}

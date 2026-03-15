@@ -3,6 +3,8 @@ title: "The Volatile Keyword in C++: When NOT To Use It"
 date: 2026-03-14T12:00:00Z
 draft: false
 mermaid: false
+cpp_version: "C++14"
+compiler_version: "Clang 16"
 ---
 
 The `volatile` keyword in C++ is one of the most misunderstood modifiers in the language. Many believe it makes variables thread-safe or atomic. **It does neither.** 

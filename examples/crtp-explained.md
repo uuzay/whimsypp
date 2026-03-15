@@ -11,6 +11,8 @@ tags:
   - "design-patterns"
 categories:
   - "deep-dive"
+cpp_version: "C++20"
+compiler_version: "GCC 13.2"
 ---
 
 ## Introduction

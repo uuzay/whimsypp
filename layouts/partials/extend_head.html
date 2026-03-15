@@ -24,3 +24,53 @@
     });
 </script>
 {{- end -}}
+
+<style>
+    .post-environment-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: var(--secondary);
+    }
+
+    .env-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .env-item svg {
+        color: inherit;
+        width: 14px;
+        height: 14px;
+        opacity: 0.8;
+    }
+
+    /* Force word-wrapping for code blocks */
+    .post-content pre {
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        word-break: break-word !important;
+    }
+
+    .post-content pre code {
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        word-break: break-word !important;
+    }
+
+    /* PS-style note on the home page */
+    .home-info-note {
+        font-size: 0.78rem;
+        color: var(--secondary);
+        opacity: 0.75;
+        font-style: italic;
+        margin: 0 0 12px 0;
+        padding-top: 10px;
+        border-top: 1px solid var(--border);
+        line-height: 1.5;
+    }
+</style>

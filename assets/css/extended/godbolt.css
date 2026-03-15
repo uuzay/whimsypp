@@ -1,0 +1,45 @@
+/* Godbolt Compiler Explorer Embed */
+.godbolt-embed {
+    margin: 1.5em 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--code-bg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.godbolt-embed:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+}
+
+.godbolt-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--code-bg);
+    border-bottom: 1px solid var(--border);
+    user-select: none;
+}
+
+.godbolt-icon {
+    width: 16px;
+    height: 16px;
+    color: var(--secondary);
+    flex-shrink: 0;
+}
+
+.godbolt-label {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--secondary);
+    letter-spacing: 0.03em;
+}
+
+.godbolt-iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    background: #1e1e1e;
+}

@@ -45,16 +45,18 @@ markup:
 params:
   env: production
   title: "Whimsy++"
-  description: "Bite-sized, whimsy and obscure C++."
+  description: "Bite-sized, whimsy and obscure C++ topics explained concisely."
   author: "Uzay Uysal"
   defaultTheme: "dark"
 
   homeInfoParams:
     Title: "Whimsy++"
     Content: |
-      Bite-sized, whimsy and obscure C++.
+      Bite-sized, whimsy and obscure C++ topics explained concisely.
 
-      Each post is categorized in 3 levels for their whimsiness and obscurity for easy navigation.
+      Each post is categorized in 3 levels (modest, remarkable, diabolical) for their whimsiness and obscurity.
+    Note: "Posts are entirely written by me (no LLM assist/grammar check etc.). They are all topics I encountered during work or daily programming."
+
   socialIcons:
     - name: github
       url: "https://github.com/uuzay"
