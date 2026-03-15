@@ -4,6 +4,12 @@ To create a simple, straight-to-the-point post:
 hugo new --kind minimal posts/minimal-post.md
 ```
 
+To create a standard post with tags and Mermaid diagram support:
+
+```powershell
+hugo new --kind standard posts/standard-post.md
+```
+
 To create a deep dive post with a Table of Contents and Mermaid diagram support:
 
 ```powershell

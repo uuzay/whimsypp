@@ -16,3 +16,8 @@
 	margin-bottom: 5px;
 	margin-left: 10px;
 }
+
+.toc details summary,
+.toc details[open] summary {
+	cursor: pointer;
+}

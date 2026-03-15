@@ -3,6 +3,23 @@ languageCode: "en-us"
 title: "Whimsy++"
 theme: "PaperMod"
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
 pagination:
   pagerSize: 5
 
@@ -21,8 +38,18 @@ params:
   env: production
   title: "Whimsy++"
   description: "Whimsy and obscure C++ topics."
-  author: "Me"
+  author: "Uzay Uysal"
   defaultTheme: "dark"
+
+  homeInfoParams:
+    Title: "Whimsy++"
+    Content: "Bite-sized, whimsy and obscure C++."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/uuzay"
+    - name: linkedin
+      url: "https://linkedin.com/in/uzay-uysal"
 
   # PaperMod UI feature toggles
   disableSpecial1stPost: true
