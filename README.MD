@@ -1,3 +1,7 @@
+The blog is hosted on:
+- [https://whimsypp.pages.dev/](https://whimsypp.pages.dev/)
+- [https://uuzay.github.io/whimsypp/](https://uuzay.github.io/whimsypp/)
+
 To create a simple, straight-to-the-point post:
 
 ```powershell
