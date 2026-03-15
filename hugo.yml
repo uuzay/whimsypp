@@ -1,4 +1,4 @@
-baseURL: "https://<USERNAME>.github.io/"
+baseURL: "/"
 languageCode: "en-us"
 title: "Whimsy++"
 theme: "PaperMod"
@@ -20,9 +20,9 @@ markup:
 params:
   env: production
   title: "Whimsy++"
-  description: "Diving deep into rare, advanced, and obscure C++ topics."
+  description: "Whimsy and obscure C++ topics."
   author: "Me"
-  defaultTheme: "dark" # Dark mode default
+  defaultTheme: "dark"
 
   # PaperMod UI feature toggles
   disableSpecial1stPost: true
@@ -38,11 +38,10 @@ params:
   # Assets configuration
   assets:
     disableScrollBarStyle: false
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
 
   label:
     text: "Whimsy++"
